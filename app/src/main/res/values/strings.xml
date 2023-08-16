@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VoiceControlledApp</string>
+
+    <string name="screen_home_title">Home Screen</string>
+    <string name="screen_settings_title">Settings Screen</string>
+    <string name="screen_content_title">Content Screen</string>
+
+    <string name="text_available_commands">Available commands: %1$s</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/homeScreenFragment">
+
+    <fragment
+        android:id="@+id/homeScreenFragment"
+        android:name="vovan.androidovych.voicecontrolledapp.ui.home.HomeScreenFragment"
+        android:label="HomeScreenFragment" >
+        <action
+            android:id="@+id/action_homeScreenFragment_to_settingsScreenFragment"
+            app:destination="@id/settingsScreenFragment" />
+        <action
+            android:id="@+id/action_homeScreenFragment_to_contentScreenFragment"
+            app:destination="@id/contentScreenFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/contentScreenFragment"
+        android:name="vovan.androidovych.voicecontrolledapp.ui.content.ContentScreenFragment"
+        android:label="ContentScreenFragment" />
+    <fragment
+        android:id="@+id/settingsScreenFragment"
+        android:name="vovan.androidovych.voicecontrolledapp.ui.settings.SettingsScreenFragment"
+        android:label="SettingsScreenFragment" />
+</navigation>
